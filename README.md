@@ -4,7 +4,7 @@ Jenkins 安装使用及iOS自动化打包，邮件通知请参考本人博客：
 
 本文重点讲如何实现Jenkins 编译结果通知到QQ好友及QQ群组。相比邮件通知更及时。
 ## 一、安装Docker 
-https://docs.docker.com/docker-for-mac/install/
+https://docs.docker.com/docker-for-mac/install/ 或者自己搜索免费的下载资源 本文使用版本Version 18.06.0-ce-mac70 (26399)
 ### Docker 常用命令：
 #### docker images #看镜像
 #### docker ps -n 5 #查看容器
@@ -73,6 +73,7 @@ NotifyQQChangelogMessage.hpi
 ![](Screenshots/qq.png)
 
 * QQ通知成功发出
+
 ![](Screenshots/message.png)
 
 ## 特别说明：
